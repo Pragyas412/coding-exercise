@@ -1,0 +1,11 @@
+class Truck():
+    def __init__ (self,load,unload,parcels):
+        self.load=load
+        self.unload=unload
+        self.parcels=parcel
+        
+    class Parcels(Truck):
+        def __init__ (self,parcels,weight):
+            self.parcels=parcels
+            self.weight=weight
+       
